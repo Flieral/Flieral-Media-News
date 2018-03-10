@@ -1,0 +1,53 @@
+{
+  "name": "agency",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "password": {
+      "type": "string",
+      "required": true,
+      "index": true
+    },
+    "email": {
+      "type": "string",
+      "required": true,
+      "index": true
+    },
+    "username": {
+      "type": "string",
+      "required": true,
+      "index": true
+    },
+    "shortName": {
+      "type": "string",
+      "required": true
+    },
+    "fullName": {
+      "type": "string",
+      "required": true
+    },
+    "homePageURL": {
+      "type": "string",
+      "required": false
+    },
+    "newsBaseURL": {
+      "type": "string",
+      "required": false
+    },
+    "commentBaseURL": {
+      "type": "string",
+      "required": false
+    },
+    "interactionBaseURL": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
