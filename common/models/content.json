@@ -58,6 +58,11 @@
       "type": "belongsTo",
       "model": "agency",
       "foreignKey": "agencyId"
+    },
+    "statistics": {
+      "type": "hasMany",
+      "model": "statistic",
+      "foreignKey": "contentId"
     }
   },
   "acls": [],
