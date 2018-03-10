@@ -52,6 +52,11 @@
       "type": "hasOne",
       "model": "account",
       "foreignKey": "agencyId"
+    },
+    "configuration": {
+      "type": "hasOne",
+      "model": "configuration",
+      "foreignKey": "agencyId"
     }
   },
   "acls": [],
