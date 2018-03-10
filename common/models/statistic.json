@@ -39,6 +39,11 @@
       "type": "belongsTo",
       "model": "content",
       "foreignKey": "contentId"
+    },
+    "newsRel": {
+      "type": "belongsTo",
+      "model": "news",
+      "foreignKey": "newsId"
     }
   },
   "acls": [],
