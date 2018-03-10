@@ -13,35 +13,11 @@
       "./mixins"
     ]
   },
-  "news": {
+  "account": {
     "dataSource": "mongoDs",
-    "public": false
+    "public": true
   },
   "agency": {
-    "dataSource": "mongoDs",
-    "public": true
-  },
-  "fetcher": {
-    "dataSource": "mongoDs",
-    "public": true
-  },
-  "generator": {
-    "dataSource": "mongoDs",
-    "public": false
-  },
-  "information": {
-    "dataSource": "mongoDs",
-    "public": false
-  },
-  "stuff": {
-    "dataSource": "mongoDs",
-    "public": true
-  },
-  "accountInfo": {
-    "dataSource": "mongoDs",
-    "public": true
-  },
-  "network": {
     "dataSource": "mongoDs",
     "public": true
   },
@@ -53,7 +29,31 @@
     "dataSource": "mongoDs",
     "public": true
   },
+  "information": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "network": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "news": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
   "statistic": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "stuff": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "fetcher": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "generator": {
     "dataSource": "mongoDs",
     "public": true
   }
