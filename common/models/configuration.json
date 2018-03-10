@@ -1,0 +1,54 @@
+{
+  "name": "configuration",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "category": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "country": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "language": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "device": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "os": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "connection": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "dayParting": {
+      "type": "object",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
