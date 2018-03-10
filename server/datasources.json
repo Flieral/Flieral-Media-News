@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongoDs": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "Flieral:Media:News:DB",
+    "name": "mongoDs",
+    "maxRows": 2000,
+    "connector": "mongodb"
+  }
+}
