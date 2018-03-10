@@ -1,3 +1,3 @@
-module.exports = function(accountinfo) {
+module.exports = function(account) {
 
 }
