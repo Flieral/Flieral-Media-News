@@ -1,0 +1,35 @@
+{
+  "name": "statistic",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "userInfo": {
+      "type": "object",
+      "required": true
+    },
+    "destination": {
+      "type": "object",
+      "required": true
+    },
+    "method": {
+      "type": "string",
+      "required": true
+    },
+    "reduction": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "date": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
