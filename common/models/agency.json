@@ -57,6 +57,11 @@
       "type": "hasOne",
       "model": "configuration",
       "foreignKey": "agencyId"
+    },
+    "contents": {
+      "type": "hasMany",
+      "model": "content",
+      "foreignKey": "agencyId"
     }
   },
   "acls": [],
