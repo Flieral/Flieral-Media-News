@@ -24,7 +24,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "agencyRel": {
+      "type": "belongsTo",
+      "model": "agency",
+      "foreignKey": "agencyId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
