@@ -82,6 +82,11 @@
       "type": "hasMany",
       "model": "statistic",
       "foreignKey": "agencyId"
+    },
+    "stuffs": {
+      "type": "hasMany",
+      "model": "stuff",
+      "foreignKey": "agencyId"
     }
   },
   "acls": [],
