@@ -7,7 +7,7 @@
     "host": "localhost",
     "port": 27017,
     "url": "",
-    "database": "Flieral:Media:News:DB",
+    "database": "FlieralMediaNewsDB",
     "name": "mongoDs",
     "maxRows": 2000,
     "connector": "mongodb"
