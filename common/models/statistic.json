@@ -34,6 +34,11 @@
       "type": "belongsTo",
       "model": "agency",
       "foreignKey": "agencyId"
+    },
+    "contentRel": {
+      "type": "belongsTo",
+      "model": "content",
+      "foreignKey": "contentId"
     }
   },
   "acls": [],
