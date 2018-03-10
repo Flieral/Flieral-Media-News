@@ -48,42 +48,42 @@
   },
   "validations": [],
   "relations": {
-    "account": {
+    "accountRel": {
       "type": "hasOne",
       "model": "account",
       "foreignKey": "agencyId"
     },
-    "configuration": {
+    "configurationRel": {
       "type": "hasOne",
       "model": "configuration",
       "foreignKey": "agencyId"
     },
-    "contents": {
+    "contentsRel": {
       "type": "hasMany",
       "model": "content",
       "foreignKey": "agencyId"
     },
-    "information": {
+    "informationRel": {
       "type": "hasOne",
       "model": "information",
       "foreignKey": "agencyId"
     },
-    "networks": {
+    "networksRel": {
       "type": "hasMany",
       "model": "network",
       "foreignKey": "agencyId"
     },
-    "newses": {
+    "newsRel": {
       "type": "hasMany",
       "model": "news",
       "foreignKey": "agencyId"
     },
-    "statistics": {
+    "statisticsRel": {
       "type": "hasMany",
       "model": "statistic",
       "foreignKey": "agencyId"
     },
-    "stuffs": {
+    "stuffsRel": {
       "type": "hasMany",
       "model": "stuff",
       "foreignKey": "agencyId"

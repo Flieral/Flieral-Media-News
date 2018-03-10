@@ -54,7 +54,7 @@
       "model": "agency",
       "foreignKey": "agencyId"
     },
-    "contents": {
+    "contentsRel": {
       "type": "hasMany",
       "model": "content",
       "foreignKey": "newsId"

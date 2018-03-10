@@ -59,7 +59,7 @@
       "model": "agency",
       "foreignKey": "agencyId"
     },
-    "statistics": {
+    "statisticsRel": {
       "type": "hasMany",
       "model": "statistic",
       "foreignKey": "contentId"
