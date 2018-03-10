@@ -1,0 +1,59 @@
+{
+  "name": "content",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "beginningTime": {
+      "type": "number",
+      "required": true
+    },
+    "endingTime": {
+      "type": "number",
+      "required": true
+    },
+    "status": {
+      "type": "string",
+      "required": true
+    },
+    "style": {
+      "type": "string",
+      "required": true
+    },
+    "fileURL": {
+      "type": "string",
+      "required": true
+    },
+    "liked": {
+      "type": "number",
+      "required": false,
+      "default": 0
+    },
+    "disliked": {
+      "type": "number",
+      "required": false,
+      "default": 0
+    },
+    "shared": {
+      "type": "number",
+      "required": false,
+      "default": 0
+    },
+    "reported": {
+      "type": "number",
+      "required": false,
+      "default": 0
+    },
+    "reduction": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
