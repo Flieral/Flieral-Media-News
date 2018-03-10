@@ -67,6 +67,11 @@
       "type": "hasOne",
       "model": "information",
       "foreignKey": "agencyId"
+    },
+    "networks": {
+      "type": "hasMany",
+      "model": "network",
+      "foreignKey": "agencyId"
     }
   },
   "acls": [],
