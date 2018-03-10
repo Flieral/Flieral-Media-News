@@ -47,7 +47,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "account": {
+      "type": "hasOne",
+      "model": "account",
+      "foreignKey": "agencyId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
