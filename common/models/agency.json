@@ -72,6 +72,11 @@
       "type": "hasMany",
       "model": "network",
       "foreignKey": "agencyId"
+    },
+    "newses": {
+      "type": "hasMany",
+      "model": "news",
+      "foreignKey": "agencyId"
     }
   },
   "acls": [],
