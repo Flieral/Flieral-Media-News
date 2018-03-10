@@ -12,5 +12,49 @@
       "../common/mixins",
       "./mixins"
     ]
+  },
+  "news": {
+    "dataSource": "mongoDs",
+    "public": false
+  },
+  "agency": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "fetcher": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "generator": {
+    "dataSource": "mongoDs",
+    "public": false
+  },
+  "information": {
+    "dataSource": "mongoDs",
+    "public": false
+  },
+  "stuff": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "accountInfo": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "network": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "configuration": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "content": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "statistic": {
+    "dataSource": "mongoDs",
+    "public": true
   }
 }
